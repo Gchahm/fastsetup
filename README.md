@@ -24,6 +24,18 @@ source setup-conda.sh
 conda install -yq mamba
 ```
 
+Install fastai
+
+```
+mamba install -c fastai fastai
+```
+
+Install mbdev
+
+```
+mamba install -c fastai mbdev
+```
+
 To set up email:
 
     sudo ./opensmtpd-install.sh
